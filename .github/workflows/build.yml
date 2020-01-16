@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Installing dependencies
-      run: apt install npm
+      run: sudo apt install npm
     - name: Installing grunt-cli
       run: npm install -g grunt-cli
     - name: Building package
