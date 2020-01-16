@@ -192,6 +192,12 @@ include:
     "*.json": "data/"
 ```
 
+### readyTimeout
+* Type: `Integer`  
+* Default: `none`    
+
+Time to wait while connect to server for i.e. authorization
+
 ## Ignore include flag
 If you are using the **include** parameter on your `dploy.yaml`, you will note that those files will always be uploaded to the server, no matter if they were modified or not (because they aren't necessarily tracked by git).  
 In order to avoid re-uploading those files all the time, there's a tag called `--ignore-include` that you can set when calling _DPLOY_.  
